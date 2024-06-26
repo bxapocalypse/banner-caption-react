@@ -1,0 +1,32 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 300px 0px;
+  position: relative;
+}
+
+.banner-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+  padding: 100px 0px;
+}
+
+.title-arrow {
+  width: 100%;
+  color: $color-primary;
+  font-size: 5rem;
+  font-weight: 900;
+
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}

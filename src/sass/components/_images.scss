@@ -1,0 +1,14 @@
+.med-img {
+  width: 50% !important;
+  height: auto !important;
+}
+
+@media only screen and (max-width: 980px) {
+  .d-block img {
+    width: 100%;
+  }
+}
+
+.staff-img {
+  max-width: 500px;
+}

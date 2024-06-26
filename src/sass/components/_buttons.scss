@@ -1,0 +1,20 @@
+.btn__blue {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #31667d;
+  border: 0.2em #e6a93e solid;
+  margin: 1em auto;
+  text-decoration: none;
+  font-size: 1em;
+  transition: all 0.5s;
+  @include respond(small-tab-port) {
+    font-size: 2rem;
+    color: $color-white !important;
+  }
+}
+
+.btn__blue a {
+  color: $color-white !important;
+}

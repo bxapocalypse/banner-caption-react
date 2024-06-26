@@ -1,0 +1,34 @@
+.staff__inner__staffer a {
+  width: 70%;
+  z-index: 1;
+}
+
+.steering .staff__inner__staffer-img {
+  border: 1px #1a4557 solid;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover !important;
+  background-position: center center !important;
+  width: 80%;
+  padding-bottom: 80%;
+  -webkit-box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 60px !important;
+  margin-top: -30%;
+}
+
+.steering .staff__inner__staffer-bg {
+  content: '';
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: -1px 3px 5px 2px rgba(0, 0, 0, 0.43);
+  box-shadow: -1px 3px 5px 2px rgba(0, 0, 0, 0.43);
+  border-top: 0.5em #e6a93e solid;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
